@@ -1,0 +1,6 @@
+❯ docker ps -a
+CONTAINER ID   IMAGE                   COMMAND                  CREATED              STATUS                          PORTS      NAMES
+924209d88cec   nginx                   "/docker-entrypoint.…"   37 seconds ago       Exited (0) 4 seconds ago                   crazy_goodall
+eb8d697cb696   hello-world             "/hello"                 About a minute ago   Exited (0) About a minute ago              recursing_davinci
+6ce701ccf28d   vulnerables/web-dvwa    "/main.sh"               2 minutes ago        Up 2 minutes                    80/tcp     peaceful_lumiere
+724227d13d78   bkimminich/juice-shop   "/nodejs/bin/node /j…"   3 minutes ago        Up 3 minutes                    3000/tcp   lucid_golick
