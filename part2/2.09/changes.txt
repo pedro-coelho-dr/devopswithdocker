@@ -1,0 +1,10 @@
+BACKEND DOCKERFILE
+    I commented out:
+        #ENV REQUEST_ORIGIN=http://localhost:5000
+    (to let nginx handle it)
+
+
+FRONTEND DOCKERFILE
+    I change the link to re
+        ENV REACT_APP_BACKEND_URL=http://localhost/api
+    (the requests should be send to the api)
