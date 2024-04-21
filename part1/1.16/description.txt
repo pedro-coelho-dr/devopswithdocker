@@ -1,0 +1,4 @@
+I deployed this Django app to Google Cloud. 
+The entire project is available on GitHub at: https://github.com/pedro-coelho-dr/libresenses.
+The deployment involved modifying the settings.py file of the Django project and configuring it to run on Google Cloud using a Dockerfile.
+As a few months have passed since the deployment and Google Cloud's free service period has ended, the live app is no longer accessible.
