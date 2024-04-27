@@ -22,3 +22,7 @@ To run the application:
 ```bash
 docker run -p 8080:8080 pedrocoelhodr/djangodelights
 ```
+
+[Dockerfile](https://github.com/pedro-coelho-dr/djangodelights/blob/a6ac3ef4e40fc9b7cb5e380dbfc3630b587abc99/Dockerfile)
+[Settings.py](https://github.com/pedro-coelho-dr/djangodelights/blob/prod/djangodelights/settings.py)
+[GitHub Actions](https://github.com/pedro-coelho-dr/djangodelights/blob/prod/.github/workflows/prod_djangodelights.yml)
