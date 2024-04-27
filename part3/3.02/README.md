@@ -11,4 +11,5 @@ Link:
 user: `devops`
 password: `docker24`
 
-
+[Settings.py](https://github.com/pedro-coelho-dr/djangodelights/blob/prod/djangodelights/settings.py)
+[GitHub Actions](https://github.com/pedro-coelho-dr/djangodelights/blob/prod/.github/workflows/prod_djangodelights.yml)
