@@ -1,7 +1,7 @@
 
-##FRONTEND
+## FRONTEND
 
-###Before
+### Before
 
 ```
 ❯ docker images
@@ -21,7 +21,7 @@ d289603fc28f   44 seconds ago       CMD ["serve" "-s" "-l" "5000" "build"]      
 <missing>      About a minute ago   EXPOSE map[5000/tcp:{}]                         0B        buildkit.dockerfile.v0
 ```
 
-###After
+### After
 
 
 ```
@@ -39,9 +39,9 @@ e16cb7645ba8   About a minute ago   EXPOSE map[5000/tcp:{}]                     
 ```
 
 
-##BACKEND
+## BACKEND
 
-###Before
+### Before
 
 
 ```
@@ -61,7 +61,7 @@ IMAGE          CREATED              CREATED BY                                  
 <missing>      About a minute ago   EXPOSE map[8080/tcp:{}]                         0B        buildkit.dockerfile.v0
 ```
 
-###After
+### After
 
 
 ```

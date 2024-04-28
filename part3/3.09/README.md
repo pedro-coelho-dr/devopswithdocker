@@ -1,6 +1,6 @@
-##BACKEND
+## BACKEND
 
-###Before
+### Before
 
 ```
 ❯ docker images
@@ -19,7 +19,7 @@ IMAGE          CREATED              CREATED BY                                  
 <missing>      About a minute ago   EXPOSE map[8080/tcp:{}]                         0B        buildkit.dockerfile.v0
 ```
 
-###After
+### After
 
 
 ```
@@ -38,9 +38,9 @@ af0681e3aa61   46 seconds ago   ENTRYPOINT ["./server"]                       0B
 ```
 
 
-##FRONTEND
+## FRONTEND
 
-###Before
+### Before
 
 ```
 ❯ docker images
@@ -60,7 +60,7 @@ d289603fc28f   44 seconds ago       CMD ["serve" "-s" "-l" "5000" "build"]      
 <missing>      About a minute ago   EXPOSE map[5000/tcp:{}]                         0B        buildkit.dockerfile.v0
 ```
 
-###After
+### After
 
 
 ```

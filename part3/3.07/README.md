@@ -1,6 +1,6 @@
-##BACKEND
+## BACKEND
 
-###Before
+### Before
 
 ```
 ❯ docker images
@@ -19,7 +19,7 @@ e558351a585b   43 seconds ago   CMD ["./server"]                                
 <missing>      59 seconds ago   WORKDIR /usr/src                                0B        buildkit.dockerfile.v0
 <missing>      59 seconds ago   EXPOSE map[8080/tcp:{}]                         0B        buildkit.dockerfile.v0
 ```
-###After
+### After
 
 ```
 ❯ docker images
@@ -39,9 +39,9 @@ IMAGE          CREATED              CREATED BY                                  
 ```
 
 
-##FRONTEND
+## FRONTEND
 
-###Before
+### Before
 
 ```
 ❯ docker images
@@ -60,7 +60,7 @@ hello-frontend                 latest        1271ebba476c   20 seconds ago   590
 <missing>      3 minutes ago    EXPOSE map[5000/tcp:{}]                         0B        buildkit.dockerfile.v0
 ```
 
-###After
+### After
 
 ```
 ❯ docker images
